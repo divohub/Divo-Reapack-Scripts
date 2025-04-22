@@ -1,54 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Divo Reapack Script" commit="58a3e39ba95bd0f35846aa1f39aa4cb2574295e1">
-  <category name="Example">
-    <reapack name="cfillion_Hello world.lua" type="script" desc="Hello world">
-      <metadata>
-        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
-{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
-\widowctrl\hyphauto
-
-{\pard \ql \f0 \sa180 \li0 \fi0 This is an example of a package file. It installs itself as a ReaScript that does nothing but show "Hello World!" in REAPER's scripting console.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 Packages may also include additional files specified using the @provides tag.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 This text is the documentation shown when using ReaPack's "About this package" feature. {\field{\*\fldinst{HYPERLINK "https://commonmark.org/"}}{\fldrslt{\ul
-Markdown
-}}}
- {\i formatting} is supported.\par}
-}
-]]></description>
-      </metadata>
-      <version name="1.0" author="cfillion" time="2021-01-04T23:30:32Z">
-        <source main="main">https://github.com/cfillion/reapack-repository-template/raw/58a3e39ba95bd0f35846aa1f39aa4cb2574295e1/Example/cfillion_Hello%20world.lua</source>
+<index version="1" name="Divo Reapack Script" commit="86cecfcd44978dcb7e7ae174c054b98bacc5a6fd">
+  <category name="Item Editing">
+    <reapack name="divo_Recorded Media Item On Selected Track.Lua" type="script" desc="Move Recorded MediaItem on Selected Track from Target Rec Track">
+      <version name="0.0.1" author="divohub" time="2025-04-22T15:07:11Z">
+        <source main="main">https://github.com/divohub/Divo-Reapack-Scripts/raw/615d80d53277512a247a20f5a502364a6f150c2e/Item%20Editing/divo_Recorded%20Media%20Item%20On%20Selected%20Track.Lua</source>
+      </version>
+      <version name="1.0" author="divohub" time="2025-04-22T15:26:21Z">
+        <source main="main">https://github.com/divohub/Divo-Reapack-Scripts/raw/b11fcf69421a9071d0f9c940ed22fadc9df78e3a/Item%20Editing/divo_Recorded%20Media%20Item%20On%20Selected%20Track.Lua</source>
+      </version>
+    </reapack>
+    <reapack name="divo_Save Selected Recorded Track As Target (Setting).lua" type="script" desc="A script for selecting a target rec track for a project (works with Recorded Media Item On Selected Track)">
+      <version name="1.0" author="divohub" time="2025-04-22T15:26:39Z">
+        <source main="main">https://github.com/divohub/Divo-Reapack-Scripts/raw/86cecfcd44978dcb7e7ae174c054b98bacc5a6fd/Item%20Editing/divo_Save%20Selected%20Recorded%20Track%20As%20Target%20(Setting).lua</source>
       </version>
     </reapack>
   </category>
   <metadata>
-    <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
+    <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
 \widowctrl\hyphauto
 
-{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs36 ReaPack Repository Template\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 A template for GitHub-hosted ReaPack repositories with automated {\field{\*\fldinst{HYPERLINK "https://github.com/cfillion/reapack-index"}}{\fldrslt{\ul
-reapack-index
-}}}
- running from GitHub Actions.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 Replace the name of the repository in {\field{\*\fldinst{HYPERLINK "/index.xml"}}{\fldrslt{\ul
-index.xml
-}}}
- when using this template. This will be the name shown in ReaPack.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 \f1 <index version="1" name="Name of your repository here">\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 Replace the contents of this file ({\field{\*\fldinst{HYPERLINK "/README.md"}}{\fldrslt{\ul
-README.md
-}}}
-). This will be the text shown when using ReaPack's "About this repository" feature.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 reapack-index looks for package files in subfolders. The folder tree represents the package categories shown in ReaPack.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 Each package file is expected to begin with a metadata header. See {\field{\*\fldinst{HYPERLINK "https://github.com/cfillion/reapack-index/wiki/Packaging-Documentation"}}{\fldrslt{\ul
-Packaging Documentation
-}}}
- on reapack-index's wiki.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 The URL to import in ReaPack is {\field{\*\fldinst{HYPERLINK "https://github.com/cfillion/reapack-repository-template/raw/master/index.xml"}}{\fldrslt{\ul
-https://github.com/{\f1 <your username>}/{\f1 <repository name>}/raw/master/index.xml
-}}}
-.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Divo's Reaper Script Collection\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 A set of useful scripts for REAPER DAW.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel1 \b \fs32 Installation\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 1.\tx360\tab Add this repository to ReaPack:\par}
+{\pard \ql \f0 \sa180 \li360 \fi0 \f1 https://github.com/divohub/Divo-Reapack-Scripts/raw/main/index.xml\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 2.\tx360\tab Sync packages in ReaPack\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 3.\tx360\tab Install the scripts you need\sa180\par}
 }
 ]]></description>
   </metadata>
