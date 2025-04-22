@@ -1,6 +1,6 @@
 -- @description Move Recorded MediaItem on Selected Track from Target Rec Track 
 -- @author divohub
--- @version 0.0.1
+-- @version 1.0
 
 
 -- package.cpath = package.cpath .. ";" .. reaper.GetResourcePath() ..'/Scripts/Lua Sockets/socket module/?.dll'    -- WINDOWS ONLY: Add socket module path for .dll files
