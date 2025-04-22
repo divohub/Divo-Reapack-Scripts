@@ -1,10 +1,13 @@
+-- @description Move Recorded MediaItem on Selected Track from Target Rec Track 
+-- @author divohub
+-- @version 0.0.1
+
+
 -- package.cpath = package.cpath .. ";" .. reaper.GetResourcePath() ..'/Scripts/Lua Sockets/socket module/?.dll'    -- WINDOWS ONLY: Add socket module path for .dll files
 -- package.path = package.path .. ";" .. reaper.GetResourcePath()   ..'/Scripts/Lua Sockets/socket module/?.lua'      -- Add all lua socket modules to the path  
 -- require("mobdebug").start()
 
--- @description Move Recorded MediaItem on Selected Track from Target Rec Track 
--- @author divohub
--- @version 0.0.1
+
 
 local section = "RecTrackStore"
 local key = "rec_track_guid"
