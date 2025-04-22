@@ -1,4 +1,4 @@
-# Reaper Divo's Script Collection
+# Divo's Reaper Script Collection
 
 A set of useful scripts for REAPER DAW.
 
