@@ -1,6 +1,6 @@
 -- @description Move Recorded MediaItem on Selected Track from Target Rec Track 
 -- @author divohub
--- @version 1.0
+-- @version 1.1
 
 
 -- package.cpath = package.cpath .. ";" .. reaper.GetResourcePath() ..'/Scripts/Lua Sockets/socket module/?.dll'    -- WINDOWS ONLY: Add socket module path for .dll files
@@ -15,7 +15,7 @@ local key = "rec_track_guid"
 function GetTrackbySavedGUID()
     local _, rec_guid = reaper.GetProjExtState(0, section, key)
     if not rec_guid or rec_guid == "" then
-        reaper.ShowMessageBox("Не найден сохраненный трек, пожалуйста, сохарните трек с помощью скрипта настройки", "Ошибка", 0)
+        reaper.ShowMessageBox("There is now Targer Rec Track in Project. Please, Targer Recording Track by using Script: divo_Save Selected Recorded Track As Target (Setting)", "Ошибка", 0)
         return nil
     end
     local track_count = reaper.CountTracks(0)
