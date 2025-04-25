@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Divo Reapack Script" commit="e8d0cd009f9ac9b0091c7654bd46e4e15e3ffc98">
+<index version="1" name="Divo Scripts" commit="e8d0cd009f9ac9b0091c7654bd46e4e15e3ffc98">
   <category name="Item Editing">
     <reapack name="divo_Recorded Media Item On Selected Track.Lua" type="script" desc="Move Recorded MediaItem on Selected Track from Target Rec Track">
       <version name="0.0.1" author="divohub" time="2025-04-22T15:07:11Z">
