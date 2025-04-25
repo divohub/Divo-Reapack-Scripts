@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Divo Reapack Script" commit="86cecfcd44978dcb7e7ae174c054b98bacc5a6fd">
+<index version="1" name="Divo Reapack Script" commit="e8d0cd009f9ac9b0091c7654bd46e4e15e3ffc98">
   <category name="Item Editing">
     <reapack name="divo_Recorded Media Item On Selected Track.Lua" type="script" desc="Move Recorded MediaItem on Selected Track from Target Rec Track">
       <version name="0.0.1" author="divohub" time="2025-04-22T15:07:11Z">
@@ -8,10 +8,16 @@
       <version name="1.0" author="divohub" time="2025-04-22T15:26:21Z">
         <source main="main">https://github.com/divohub/Divo-Reapack-Scripts/raw/b11fcf69421a9071d0f9c940ed22fadc9df78e3a/Item%20Editing/divo_Recorded%20Media%20Item%20On%20Selected%20Track.Lua</source>
       </version>
+      <version name="1.1" author="divohub" time="2025-04-25T06:03:20Z">
+        <source main="main">https://github.com/divohub/Divo-Reapack-Scripts/raw/e8d0cd009f9ac9b0091c7654bd46e4e15e3ffc98/Item%20Editing/divo_Recorded%20Media%20Item%20On%20Selected%20Track.Lua</source>
+      </version>
     </reapack>
     <reapack name="divo_Save Selected Recorded Track As Target (Setting).lua" type="script" desc="A script for selecting a target rec track for a project (works with Recorded Media Item On Selected Track)">
       <version name="1.0" author="divohub" time="2025-04-22T15:26:39Z">
         <source main="main">https://github.com/divohub/Divo-Reapack-Scripts/raw/86cecfcd44978dcb7e7ae174c054b98bacc5a6fd/Item%20Editing/divo_Save%20Selected%20Recorded%20Track%20As%20Target%20(Setting).lua</source>
+      </version>
+      <version name="1.1" author="divohub" time="2025-04-25T06:03:20Z">
+        <source main="main">https://github.com/divohub/Divo-Reapack-Scripts/raw/e8d0cd009f9ac9b0091c7654bd46e4e15e3ffc98/Item%20Editing/divo_Save%20Selected%20Recorded%20Track%20As%20Target%20(Setting).lua</source>
       </version>
     </reapack>
   </category>
