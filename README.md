@@ -6,7 +6,7 @@ A set of useful scripts for REAPER DAW.
 
 1. Add this repository to ReaPack:
    ```
-   https://github.com/divohub/Divo-Reapack-Scripts/raw/main/index.xml
+   https://github.com/divohub/Divo-Reapack-Scripts/raw/master/index.xml
     ```
 2. Sync packages in ReaPack
 3. Install the scripts you need
