@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Divo Scripts" commit="e8d0cd009f9ac9b0091c7654bd46e4e15e3ffc98">
+<index version="1" name="Divo Scripts" commit="e22c3e13013d1a540e1a86f467de87b5593a6f6c">
   <category name="Item Editing">
     <reapack name="divo_Recorded Media Item On Selected Track.Lua" type="script" desc="Move Recorded MediaItem on Selected Track from Target Rec Track">
       <version name="0.0.1" author="divohub" time="2025-04-22T15:07:11Z">
@@ -18,6 +18,13 @@
       </version>
       <version name="1.1" author="divohub" time="2025-04-25T06:03:20Z">
         <source main="main">https://github.com/divohub/Divo-Reapack-Scripts/raw/e8d0cd009f9ac9b0091c7654bd46e4e15e3ffc98/Item%20Editing/divo_Save%20Selected%20Recorded%20Track%20As%20Target%20(Setting).lua</source>
+      </version>
+    </reapack>
+  </category>
+  <category name="Tracks Properties">
+    <reapack name="divo_SmartSelectedTrackNameFromSample.lua" type="script" desc="Smart Rename Selected Tracks by Parsing Samples on tracks.">
+      <version name="1.0" author="divohub" time="2025-05-12T06:23:24Z">
+        <source main="main">https://github.com/divohub/Divo-Reaper-Scripts/raw/e22c3e13013d1a540e1a86f467de87b5593a6f6c/Tracks%20Properties/divo_SmartSelectedTrackNameFromSample.lua</source>
       </version>
     </reapack>
   </category>
